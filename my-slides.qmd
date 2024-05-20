@@ -1,0 +1,175 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    output-file: "my-slides"
+    width: 1245
+    height: 700
+    embed-resources: true
+    preview-links: false
+    toc: false
+    menu: false
+    controls: true
+    slide-number: false
+    transition: fade
+    theme:
+        - simple
+        - style/style_background.scss
+    auto-stretch: false
+    center: true
+---
+
+## Use the arrows to navigate the presentation.
+
+--- 
+
+## { .custom-title }
+
+This shows the .custom-title class defined on style/style_background.scss.
+Any personalization should be applied directly there.
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Some title]{style="font-size: 20px; margin: 0px;"} <br>
+[Some author]{style="font-size: 25px;"}
+:::
+
+::: {.notes}
+This are the speaker notes. They are not shown. Press "S" to activate them.
+:::
+
+---
+
+## Slide with title
+
+* Non
+* Incremental
+* Lists
+
+---
+
+## Another slide with title
+::: {.incremental}
+* Items
+* Shown
+* Incrementally
+:::
+
+---
+
+## Yet another slide with title
+
+::: {.fragment}
+* First
+* Second
+* Third
+* Fourth
+
+(all at once)
+::: 
+
+---
+
+* First
+* Second
+* [Third]{.fragment}
+* [Fourth]{.fragment}
+
+(partially, and a slide without a title)
+
+---
+
+* [Fourth]{.fragment fragment-index=4}
+* [Second]{.fragment fragment-index=2}
+* [Third]{.fragment fragment-index=3}
+* [First]{.fragment fragment-index=1}
+
+(user defined order)
+
+---
+
+## Columns
+
+::: columns
+::: {.column width="60%"}
+Some content (markdown, image, video)
+:::
+::: {.column width="40%"}
+Some content (markdown, image, video)
+:::
+:::
+
+---
+
+## Columns and fragments
+
+::: columns
+::: {.column width="60%" .fragment}
+Some content (markdown, image, video)
+:::
+::: {.column width="40%" .fragment}
+Some content (markdown, image, video)
+:::
+:::
+
+---
+
+## Some text tricks 1
+
+Standard text size
+
+::: {.smaller}
+Smaller than standard text size
+:::
+
+
+---
+
+## Some text tricks 2
+
+[Text]{style="color: red"} can be [personalized]{style="font-size: 50px;"} 
+with standard html/css properties. It is left-aligned by default.
+
+::: {style="text-align: center"}
+Use this trick to 
+
+horizontally center
+
+your text!
+:::
+
+
+---
+
+::: columns
+::: {.column}
+ABCDEFGH IJKLMNÑOPQR STUVWXYZ ABCDEF GHIJKLMNÑO PQRSTUVW XYZ ABCD EFGHIJKLMNÑ OPQRS TUVW XYZ 
+ABCD EFGHIJKLM NÑOPQR STUVW XYZ ABCDE GHIJ KLMNÑ OPQRS TUVWXYZ 
+:::
+::: {.column}
+TUVW XYZ 
+ABCD EFGHIJKLM
+:::
+:::
+
+:(((( content within columns is not automatically centered
+
+
+---
+
+::: columns
+::: {.column}
+ABCDEFGH IJKLMNÑOPQR STUVWXYZ ABCDEF GHIJKLMNÑO PQRSTUVW XYZ ABCD EFGHIJKLMNÑ OPQRS TUVW XYZ 
+ABCD EFGHIJKLM NÑOPQR STUVW XYZ ABCDE GHIJ KLMNÑ OPQRS TUVWXYZ 
+:::
+::: {.column}
+<br><br><br>
+TUVW XYZ 
+ABCD EFGHIJKLM
+:::
+:::
+
+:)))) but we can use some dirty html tricks
