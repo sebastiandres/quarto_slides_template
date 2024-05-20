@@ -8,10 +8,10 @@ While prepararing my slides for my [talk at Pycon US 2024](https://sebastiandres
 
 ## Official documentation
 The official documentation is:
-* [https://quarto.org/docs/presentations/revealjs/](Reveal basics)
-* [https://quarto.org/docs/presentations/revealjs/presenting.html](Presenting slides)
-* [https://quarto.org/docs/presentations/revealjs/advanced.html](Advanced reveal)
-* [https://quarto.org/docs/presentations/revealjs/themes.html](Reveal themes)
+* [https://quarto.org/docs/presentations/revealjs/ ](Reveal basics)
+* [https://quarto.org/docs/presentations/revealjs/presenting.html ](Presenting slides)
+* [https://quarto.org/docs/presentations/revealjs/advanced.html ](Advanced reveal)
+* [https://quarto.org/docs/presentations/revealjs/themes.html ](Reveal themes)
 
 Make sure to have read and understood those pages before using these advices.
 
