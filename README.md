@@ -3,8 +3,8 @@
 While prepararing my slides for my [talk at Pycon US 2024](https://sebastiandres.github.io/talk_2024_05_pycon_us), I learned some tricks to customize quarto. This repository contains some notes so my future-self won't bang his head on the wall (again) - hopefully it can help someone else. This is a rought first template - help me improve it!
 
 ## How it looks
-  * [Slides (html, interactive)](https://sebastiandres.github.io/quarto_slides_template/my-slides.html)
-  * [Slides (pdf, non interactive)](https://sebastiandres.github.io/quarto_slides_template/my-slides.pdf)
+* [Slides (html, interactive)](https://sebastiandres.github.io/quarto_slides_template/my-slides.html)
+* [Slides (pdf, non interactive)](https://sebastiandres.github.io/quarto_slides_template/my-slides.pdf)
 
 ## Official documentation
 The official documentation is:
@@ -12,6 +12,7 @@ The official documentation is:
 * [https://quarto.org/docs/presentations/revealjs/presenting.html](Presenting slides)
 * [https://quarto.org/docs/presentations/revealjs/advanced.html](Advanced reveal)
 * [https://quarto.org/docs/presentations/revealjs/themes.html](Reveal themes)
+
 Make sure to have read and understood those pages before using these advices.
 
 ## Personalizations
