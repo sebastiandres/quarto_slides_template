@@ -3,8 +3,8 @@
 While prepararing my slides for my [talk at Pycon US 2024](https://sebastiandres.github.io/talk_2024_05_pycon_us), I learned some tricks to customize quarto. This repository contains some notes so my future-self won't bang his head on the wall (again) - hopefully it can help someone else.
 
 ## How it looks
-  * [Slides (html, 40 Mb, interactive)](https://sebastiandres.github.io/talk_2024_05_pycon_us/slides-eng.html)
-  * [Slides (pdf, 12 Mb, non interactive)](https://sebastiandres.github.io/talk_2024_05_pycon_us/slides-eng.pdf)
+  * [Slides (html, 40 Mb, interactive)](https://sebastiandres.github.io/quarto_slides_template/my-slides.html)
+  * [Slides (pdf, 12 Mb, non interactive)](https://sebastiandres.github.io/quarto_slides_template/my-slides.pdf)
 
 ## Personalizations
 
