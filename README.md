@@ -1,6 +1,8 @@
 # Quarto Slides Template
 
-While prepararing my slides for my [talk at Pycon US 2024](https://sebastiandres.github.io/talk_2024_05_pycon_us), I learned some tricks to customize quarto. This repository contains some notes so my future-self won't bang his head on the wall (again) - hopefully it can help someone else. This is a rought first template - help me improve it!
+While prepararing my slides for my [talk at Pycon US 2024](https://sebastiandres.github.io/talk_2024_05_pycon_us), I learned some tricks to customize quarto. This repository contains some notes so my future-self won't bang his head on the wall (again) - hopefully it can also help someone else. 
+
+This is a rought first template - help me improve it!
 
 ## How it looks
 * [Slides (html, interactive)](https://sebastiandres.github.io/quarto_slides_template/my-slides.html)
