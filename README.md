@@ -33,7 +33,6 @@ Personally, I think that fade and simple are the best combination.
 Screen size is set by the variables height and width on my-slides.qmd 
 Change the images for the images you need 
 
-
 ## html and pdf Outputs
 
 Executing the makefile should produce the html. Make sure to read the terminal output, the errors tend to be descriptive enough to fix or google them.
@@ -44,7 +43,7 @@ To create the pdf, open the html file and press the "E" key. Then, print the pag
 
 The html presentation can be displayed directly from github, if you set the repo as a github page. You will need to set embed-resourses to true so the html page for the slides is self-contained and does not break any weird local dependency.
 
-Additional advice: As a presenter, I prefer to use the options toc, controls, menu and slide number as false to avoid visual distractions. While sharing the presentation slides, I prefer to set them as true to facilitate the exploration of the slides (as the speaker won't be able to explain).  
+Additional advice: As a presenter, I prefer to deactivate the options toc, controls, menu and slide number (value false) to avoid visual distractions. While sharing the presentation slides, I prefer to set them as true to facilitate the exploration of the slides (as the speaker won't be able to explain).  
 
 ## Presenting
 Press "S" key to show speaker notes. They should be a new, separate tab on your browser.
